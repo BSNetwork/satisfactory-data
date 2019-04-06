@@ -9,7 +9,7 @@
   },
   "Recipes": {
     "1000": {
-      "Id": 1000
+      "Id": 1000,
       "MachineId": 1000,
       "ImageURL": null,
       "Ingredients": {},
@@ -20,7 +20,7 @@
   "Items": {
     "1000": {
       "Id": 1000,
-      "Name": "Custom Item
+      "Name": "Custom Item",
       "ImageURL": null,
       "Category": 0,
       "StackSize": 0,
