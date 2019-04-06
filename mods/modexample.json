@@ -8,7 +8,7 @@
     }
   },
   "Recipes": {
-    "1000{
+    "1000": {
       "Id": 1000
       "MachineId": 1000,
       "ImageURL": null,
@@ -18,7 +18,7 @@
     }
   },
   "Items": {
-    "1000{
+    "1000": {
       "Id": 1000,
       "Name": "Custom Item
       "ImageURL": null,
