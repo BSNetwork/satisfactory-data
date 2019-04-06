@@ -1,0 +1,437 @@
+{
+    "Machines": {
+        "1": {
+            "Id": 1,
+            "Name": "Miner",
+            "ImageURL": null,
+            "Type": 0
+        },
+        "2": {
+            "Id": 2,
+            "Name": "Smelter",
+            "ImageURL": null,
+            "Type": 1
+        },
+        "3": {
+            "Id": 3,
+            "Name": "Constructor",
+            "ImageURL": null,
+            "Type": 1
+        },
+        "4": {
+            "Id": 4,
+            "Name": "Foundry",
+            "ImageURL": null,
+            "Type": 1
+        },
+        "5": {
+            "Id": 5,
+            "Name": "Assembler",
+            "ImageURL": null,
+            "Type": 1
+        },
+        "6": {
+            "Id": 6,
+            "Name": "Manufacturer",
+            "ImageURL": null,
+            "Type": 1
+        },
+        "7": {
+            "Id": 7,
+            "Name": "Oil Pump",
+            "ImageURL": null,
+            "Type": 0
+        },
+        "8": {
+            "Id": 8,
+            "Name": "Oil Refinery",
+            "ImageURL": null,
+            "Type": 1
+        }
+    },
+    "Recipes": {
+        "1": {
+            "Id": 1,
+            "MachineId": 1,
+            "ImageURL": null,
+            "Ingredients": {},
+            "Amount": 1,
+            "CraftingTime": 0
+        },
+        "2": {
+            "Id": 2,
+            "MachineId": 2,
+            "ImageURL": null,
+            "Ingredients": {
+                "1": 1
+            },
+            "Amount": 1,
+            "CraftingTime": 0
+        },
+        "3": {
+            "Id": 3,
+            "MachineId": 3,
+            "ImageURL": null,
+            "Ingredients": {
+                "2": 1
+            },
+            "Amount": 1,
+            "CraftingTime": 0
+        },
+        "4": {
+            "Id": 4,
+            "MachineId": 3,
+            "ImageURL": null,
+            "Ingredients": {
+                "3": 1
+            },
+            "Amount": 6,
+            "CraftingTime": 0
+        },
+        "5": {
+            "Id": 5,
+            "MachineId": 1,
+            "ImageURL": null,
+            "Ingredients": {},
+            "Amount": 1,
+            "CraftingTime": 0
+        },
+        "6": {
+            "Id": 6,
+            "MachineId": 2,
+            "ImageURL": null,
+            "Ingredients": {
+                "5": 1
+            },
+            "Amount": 1,
+            "CraftingTime": 0
+        },
+        "7": {
+            "Id": 7,
+            "MachineId": 3,
+            "ImageURL": null,
+            "Ingredients": {
+                "6": 1
+            },
+            "Amount": 3,
+            "CraftingTime": 0
+        },
+        "8": {
+            "Id": 8,
+            "MachineId": 3,
+            "ImageURL": null,
+            "Ingredients": {
+                "7": 2
+            },
+            "Amount": 1,
+            "CraftingTime": 0
+        },
+        "9": {
+            "Id": 9,
+            "MachineId": 7,
+            "ImageURL": null,
+            "Ingredients": {},
+            "Amount": 120,
+            "CraftingTime": 0
+        },
+        "10": {
+            "Id": 10,
+            "MachineId": 8,
+            "ImageURL": null,
+            "Ingredients": {
+                "9": 4
+            },
+            "Amount": 3,
+            "CraftingTime": 0
+        },
+        "11": {
+            "Id": 11,
+            "MachineId": 6,
+            "ImageURL": null,
+            "Ingredients": {
+                "12": 5,
+                "8": 12,
+                "10": 18,
+                "4": 60
+            },
+            "Amount": 1,
+            "CraftingTime": 0
+        },
+        "12": {
+            "Id": 12,
+            "MachineId": 3,
+            "ImageURL": null,
+            "Ingredients": {
+                "7": 12,
+                "10": 6
+            },
+            "Amount": 1,
+            "CraftingTime": 0
+        },
+        "13": {
+            "Id": 13,
+            "MachineId": 3,
+            "ImageURL": null,
+            "Ingredients": {
+                "12": 1,
+                "14": 18
+            },
+            "Amount": 1,
+            "CraftingTime": 0
+        },
+        "14": {
+            "Id": 14,
+            "MachineId": 3,
+            "ImageURL": null,
+            "Ingredients": {
+                "15": 1
+            },
+            "Amount": 4,
+            "CraftingTime": 0
+        },
+        "15": {
+            "Id": 15,
+            "MachineId": 2,
+            "ImageURL": null,
+            "Ingredients": {
+                "16": 4
+            },
+            "Amount": 1,
+            "CraftingTime": 0
+        },
+        "16": {
+            "Id": 16,
+            "MachineId": 1,
+            "ImageURL": null,
+            "Ingredients": {},
+            "Amount": 60,
+            "CraftingTime": 0
+        },
+        "17": {
+            "Id": 17,
+            "MachineId": 6,
+            "ImageURL": null,
+            "Ingredients": {
+                "14": 40,
+                "8": 10,
+                "10": 6
+            },
+            "Amount": 1,
+            "CraftingTime": 0
+        },
+        "18": {
+            "Id": 18,
+            "MachineId": 6,
+            "ImageURL": null,
+            "Ingredients": {
+                "11": 2,
+                "13": 2,
+                "17": 3,
+                "10": 21
+            },
+            "Amount": 1,
+            "CraftingTime": 0
+        }
+    },
+    "Items": {
+        "1": {
+            "Id": 1,
+            "Name": "Iron Ore",
+            "ImageURL": "https://cdn.bssecure.net/sf/img/Iron_Ore.png",
+            "Category": 0,
+            "StackSize": 0,
+            "Stage": 0,
+            "Recipes": [
+                1
+            ]
+        },
+        "2": {
+            "Id": 2,
+            "Name": "Iron Ingot",
+            "ImageURL": "https://cdn.bssecure.net/sf/img/Iron_Ingot.png",
+            "Category": 0,
+            "StackSize": 0,
+            "Stage": 0,
+            "Recipes": [
+                2
+            ]
+        },
+        "3": {
+            "Id": 3,
+            "Name": "Iron Rod",
+            "ImageURL": "https://cdn.bssecure.net/sf/img/Iron_Rod.png",
+            "Category": 0,
+            "StackSize": 0,
+            "Stage": 0,
+            "Recipes": [
+                3
+            ]
+        },
+        "4": {
+            "Id": 4,
+            "Name": "Screw",
+            "ImageURL": "https://cdn.bssecure.net/sf/img/Screw.png",
+            "Category": 0,
+            "StackSize": 0,
+            "Stage": 0,
+            "Recipes": [
+                4
+            ]
+        },
+        "5": {
+            "Id": 5,
+            "Name": "Copper Ore",
+            "ImageURL": null,
+            "Category": 0,
+            "StackSize": 0,
+            "Stage": 0,
+            "Recipes": [
+                5
+            ]
+        },
+        "6": {
+            "Id": 6,
+            "Name": "Copper Ingot",
+            "ImageURL": null,
+            "Category": 0,
+            "StackSize": 0,
+            "Stage": 0,
+            "Recipes": [
+                6
+            ]
+        },
+        "7": {
+            "Id": 7,
+            "Name": "Wire",
+            "ImageURL": null,
+            "Category": 0,
+            "StackSize": 0,
+            "Stage": 0,
+            "Recipes": [
+                7
+            ]
+        },
+        "8": {
+            "Id": 8,
+            "Name": "Cable",
+            "ImageURL": null,
+            "Category": 0,
+            "StackSize": 0,
+            "Stage": 0,
+            "Recipes": [
+                8
+            ]
+        },
+        "9": {
+            "Id": 9,
+            "Name": "Crude Oil",
+            "ImageURL": null,
+            "Category": 0,
+            "StackSize": 0,
+            "Stage": 0,
+            "Recipes": [
+                9
+            ]
+        },
+        "10": {
+            "Id": 10,
+            "Name": "Plastic",
+            "ImageURL": "https://cdn.bssecure.net/sf/img/Plastic.png",
+            "Category": 0,
+            "StackSize": 0,
+            "Stage": 0,
+            "Recipes": [
+                10
+            ]
+        },
+        "11": {
+            "Id": 11,
+            "Name": "Computer",
+            "ImageURL": null,
+            "Category": 0,
+            "StackSize": 0,
+            "Stage": 0,
+            "Recipes": [
+                11
+            ]
+        },
+        "12": {
+            "Id": 12,
+            "Name": "Circuit Board",
+            "ImageURL": null,
+            "Category": 0,
+            "StackSize": 0,
+            "Stage": 0,
+            "Recipes": [
+                12
+            ]
+        },
+        "13": {
+            "Id": 13,
+            "Name": "A.I. Limiter",
+            "ImageURL": "https://cdn.bssecure.net/sf/img/A.I._Limiter.png",
+            "Category": 0,
+            "StackSize": 0,
+            "Stage": 0,
+            "Recipes": [
+                13
+            ]
+        },
+        "14": {
+            "Id": 14,
+            "Name": "Quickwire",
+            "ImageURL": null,
+            "Category": 0,
+            "StackSize": 0,
+            "Stage": 0,
+            "Recipes": [
+                14
+            ]
+        },
+        "15": {
+            "Id": 15,
+            "Name": "Caterium Ingot",
+            "ImageURL": null,
+            "Category": 0,
+            "StackSize": 0,
+            "Stage": 0,
+            "Recipes": [
+                15
+            ]
+        },
+        "16": {
+            "Id": 16,
+            "Name": "Caterium Ore",
+            "ImageURL": null,
+            "Category": 0,
+            "StackSize": 0,
+            "Stage": 0,
+            "Recipes": [
+                16
+            ]
+        },
+        "17": {
+            "Id": 17,
+            "Name": "High-Speed Connector",
+            "ImageURL": null,
+            "Category": 0,
+            "StackSize": 0,
+            "Stage": 0,
+            "Recipes": [
+                17
+            ]
+        },
+        "18": {
+            "Id": 18,
+            "Name": "Supercomputer",
+            "ImageURL": "https://cdn.bssecure.net/sf/img/Supercomputer.png",
+            "Category": 0,
+            "StackSize": 0,
+            "Stage": 0,
+            "Recipes": [
+                18
+            ]
+        }
+    },
+    "Version": "0.1.0"
+}
