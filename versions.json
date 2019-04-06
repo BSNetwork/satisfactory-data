@@ -1,6 +1,7 @@
 {
     "satisfactory": [
-        "0.1.0"
+        "0.1.0",
+        "0.1.1"
     ],
     "mods/modexample": [
         "0.0.0"
