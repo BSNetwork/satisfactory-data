@@ -38,13 +38,13 @@
     },
     "7": {
       "Id": 7,
-      "Name": "Oil Pump",
+      "Name": "OilPump",
       "ImageURL": "https://cdn.bssecure.net/sf/img/Oil_Pump.png",
       "Type": 0
     },
     "8": {
       "Id": 8,
-      "Name": "Oil Refinery",
+      "Name": "OilRefinery",
       "ImageURL": "https://cdn.bssecure.net/sf/img/Oil_Refinery.png",
       "Type": 1
     }
@@ -254,7 +254,7 @@
   "Items": {
     "1": {
       "Id": 1,
-      "Name": "Iron Ore",
+      "Name": "IronOre",
       "ImageURL": "https://cdn.bssecure.net/sf/img/Iron_Ore.png",
       "Category": 0,
       "StackSize": 0,
@@ -265,7 +265,7 @@
     },
     "2": {
       "Id": 2,
-      "Name": "Iron Ingot",
+      "Name": "IronIngot",
       "ImageURL": "https://cdn.bssecure.net/sf/img/Iron_Ingot.png",
       "Category": 0,
       "StackSize": 0,
@@ -276,7 +276,7 @@
     },
     "3": {
       "Id": 3,
-      "Name": "Iron Rod",
+      "Name": "IronRod",
       "ImageURL": "https://cdn.bssecure.net/sf/img/Iron_Rod.png",
       "Category": 0,
       "StackSize": 0,
@@ -298,7 +298,7 @@
     },
     "5": {
       "Id": 5,
-      "Name": "Copper Ore",
+      "Name": "CopperOre",
       "ImageURL": "https://cdn.bssecure.net/sf/img/Copper_Ore.png",
       "Category": 0,
       "StackSize": 0,
@@ -309,7 +309,7 @@
     },
     "6": {
       "Id": 6,
-      "Name": "Copper Ingot",
+      "Name": "CopperIngot",
       "ImageURL": "https://cdn.bssecure.net/sf/img/Copper_Ingot.png",
       "Category": 0,
       "StackSize": 0,
@@ -342,7 +342,7 @@
     },
     "9": {
       "Id": 9,
-      "Name": "Crude Oil",
+      "Name": "CrudeOil",
       "ImageURL": "https://cdn.bssecure.net/sf/img/Crude_Oil.png",
       "Category": 0,
       "StackSize": 0,
@@ -375,7 +375,7 @@
     },
     "12": {
       "Id": 12,
-      "Name": "Circuit Board",
+      "Name": "CircuitBoard",
       "ImageURL": "https://cdn.bssecure.net/sf/img/Circuit_Board.png",
       "Category": 0,
       "StackSize": 0,
@@ -386,7 +386,7 @@
     },
     "13": {
       "Id": 13,
-      "Name": "A.I. Limiter",
+      "Name": "A_I_Limiter",
       "ImageURL": "https://cdn.bssecure.net/sf/img/A.I._Limiter.png",
       "Category": 0,
       "StackSize": 0,
@@ -408,7 +408,7 @@
     },
     "15": {
       "Id": 15,
-      "Name": "Caterium Ingot",
+      "Name": "CateriumIngot",
       "ImageURL": "https://cdn.bssecure.net/sf/img/Caterium_Ingot.png",
       "Category": 0,
       "StackSize": 0,
@@ -419,7 +419,7 @@
     },
     "16": {
       "Id": 16,
-      "Name": "Caterium Ore",
+      "Name": "CateriumOre",
       "ImageURL": "https://cdn.bssecure.net/sf/img/Caterium_Ore.png",
       "Category": 0,
       "StackSize": 0,
@@ -430,7 +430,7 @@
     },
     "17": {
       "Id": 17,
-      "Name": "High-Speed Connector",
+      "Name": "High-SpeedConnector",
       "ImageURL": "https://cdn.bssecure.net/sf/img/High-Speed_Connector.png",
       "Category": 0,
       "StackSize": 0,
@@ -451,5 +451,5 @@
       ]
     }
   },
-  "Version": "0.1.0"
+  "Version": "0.1.1"
 }
